@@ -12,7 +12,5 @@ This project aims to bridge the gap between studies focusing on common variants 
 ## Methods Summary
 - **Dataset:** WES data from 96 PrCa patients in 45 families.
 - **Data Processing:** Quality control, alignment (BWA), duplicate removal (Picard), variant calling (multiple tools), and annotation using ANNOVAR.
-- **Gene Analysis:** Significant gene identification using tools like MutSigCV and OncodriveFML.
-- **Enrichment Analysis:** Gene set enrichment analysis (GSEA) with DAVID, Enrichr, and g:Profiler to assess pathways via KEGG, Reactome, and Gene Ontology (GO).
-
-## Repository Structure
+- **Gene Analysis:** Significant gene identification using tools like OncodriveFML.
+- **Enrichment Analysis:** Gene set enrichment analysis (GSEA) with Enrichr, and g:Profiler to assess pathways via KEGG, and Gene Ontology (GO).
